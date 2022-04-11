@@ -1,0 +1,53 @@
+.section-block {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  @media screen and (max-width: 1600px) {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  /* First block title/text */
+  .section-first-block {
+    flex: 1;
+    div {
+      font-size: $sizeText;
+      @media screen and (max-width: 768px) {
+        font-size: $sizeMobileText;
+      }
+      span {
+        h1 {
+          margin: 0px;
+          font-size: $sizeTitleH1Section1;
+          font-weight: bold;
+          @media screen and (max-width: 768px) {
+            font-size: $sizeMobileTitle;
+          }
+        }
+      }
+    }
+    .btn-container {
+      @media screen and (max-width: 970px) {
+        font-size: $sizeMobileText;
+      }
+    }
+  }
+  /* Second block image */
+  .section-second-block {
+    flex: 1;
+    height: 496px;
+    width: 605px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 960px) {
+      display: none;
+    }
+  }
+}

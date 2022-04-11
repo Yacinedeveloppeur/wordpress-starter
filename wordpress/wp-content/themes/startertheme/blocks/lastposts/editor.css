@@ -1,0 +1,12 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-startertheme-lastposts {
+  border: solid 1px orange;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}

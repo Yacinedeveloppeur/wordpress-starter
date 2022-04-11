@@ -1,0 +1,15 @@
+body {
+  font-family: $fontFamilyBody !important;
+  margin: 0;
+  h1 {
+    font-size: $sizeTitleH1;
+  }
+  a {
+    text-decoration: none;
+    color: $colorBlack;
+    &:hover {
+      text-decoration: underline;
+      color: $colorBlack;
+    }
+  }
+}

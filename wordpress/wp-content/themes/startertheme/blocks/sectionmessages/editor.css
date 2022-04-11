@@ -1,0 +1,30 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-startertheme-sectionmessages {
+  border: solid 1px orange;
+  padding: 10px;
+}
+
+.messageOneAndTwo-container-editor {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-content-center-editor {
+  text-align: center;
+}
+
+.messageThreeFourAndFive-container-editor {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.messages-editor {
+  border: solid 1px rgb(37, 104, 228);
+  margin: 5px;
+}

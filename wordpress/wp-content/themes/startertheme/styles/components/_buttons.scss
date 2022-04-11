@@ -1,0 +1,19 @@
+.default-btn {
+  @include default-btn();
+}
+
+.white-btn {
+  @include default-btn($colorBg: $colorWhite, $colorText: $colorPrimary);
+  &:hover {
+    color: $colorWhite;
+  }
+}
+
+.disabled-btn {
+  @include default-btn($colorBg: $colorWhite, $colorText: $colorSecondary);
+  border: solid lighten($colorSecondary, 40%) 1px;
+  &:hover {
+    background-color: $colorSecondary;
+    color: $colorWhite;
+  }
+}

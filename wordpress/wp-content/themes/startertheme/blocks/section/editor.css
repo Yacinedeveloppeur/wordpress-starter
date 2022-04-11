@@ -1,0 +1,59 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-startertheme-section {
+  border: solid 1px orange;
+  padding: 10px;
+}
+
+.section-container-editor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-block-section-editor {
+  max-width: 300px;
+}
+
+.btn-container-editor {
+  margin-top: 20px;
+  display: flex;
+}
+
+.default-btn-editor {
+  margin-right: 20px;
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.right-section-image-editor {
+  width: 400px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.block-editor-block-inspector {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.block-editor-block-inspector__advanced {
+  margin-top: 20px;
+}
+
+.inspector-controls-container-editor {
+  display: flex;
+  flex-direction: column;
+}
+
+.inspector-controls-container-editor > div {
+  padding: 10px;
+}

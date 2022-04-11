@@ -1,0 +1,27 @@
+@mixin default-btn($colorBg: $colorPrimary, $colorText: $colorWhite) {
+  background-color: $colorBg;
+  color: $colorText;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 5%;
+  transition: background-color 0.4s ease-out, color 0.4s ease-out;
+
+  &:hover {
+    background-color: $colorAccent;
+    color: $colorText;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  &:focus {
+    outline: none;
+  }
+  a {
+    color: $colorWhite;
+    &:hover {
+      text-decoration: none;
+    }
+    &:visited {
+      color: $colorWhite;
+    }
+  }
+}

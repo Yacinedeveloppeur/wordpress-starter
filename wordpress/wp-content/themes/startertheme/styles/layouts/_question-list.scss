@@ -1,0 +1,36 @@
+.question-list {
+  padding: 0px;
+  article {
+    background-image: url("assets/UI_Armor/bg_faq.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color: $color-white;
+    ul {
+      list-style: none;
+      padding: 0 5%;
+      margin-bottom: 50px;
+      li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $color-black;
+        background-color: $color-white;
+        margin: 20px 0;
+        padding: 15px;
+        border-radius: 5px;
+        span {
+          &::first-letter {
+            text-transform: uppercase;
+          }
+        }
+        button {
+          padding-left: 30px;
+          padding-right: 30px;
+          min-width: 90px;
+        }
+      }
+    }
+  }
+}

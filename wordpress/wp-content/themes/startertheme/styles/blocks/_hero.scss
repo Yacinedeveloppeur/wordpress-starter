@@ -1,0 +1,63 @@
+.hero {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  @media screen and (max-width: 1600px) {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    padding-top: 0px;
+  }
+  /* First block title/text */
+  .hero-first-block {
+    flex: 1;
+    div {
+      font-size: $sizeTextHero;
+      @media screen and (max-width: 768px) {
+        font-size: $sizeMobileText;
+      }
+      h1 {
+        font-size: $sizeTitleHero;
+        font-weight: bold;
+        padding-bottom: 20px;
+        @media screen and (max-width: 768px) {
+          font-size: $sizeMobileTitle;
+        }
+      }
+      p {
+        padding-bottom: 30px;
+      }
+    }
+    .btn-container {
+      @media screen and (max-width: 970px) {
+        font-size: $sizeMobileText;
+      }
+    }
+    .link {
+      margin-left: 25px;
+      color: $colorPrimary;
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+  /* Second block image */
+  .hero-second-block {
+    flex: 1;
+    height: 496px;
+    width: 605px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 960px) {
+      display: none;
+    }
+  }
+}

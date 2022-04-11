@@ -1,0 +1,61 @@
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  a {
+    color: $colorLink;
+    &:hover {
+      color: $colorLink;
+    }
+  }
+  h2 {
+    text-align: center;
+  }
+  .comment-form-comment {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-submit {
+    text-align: center;
+    .submit {
+      @include default-btn;
+    }
+  }
+  article {
+    margin-top: 10px;
+    padding: 0px;
+    footer {
+      div {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        img {
+          width: auto;
+        }
+      }
+    }
+  }
+  .ml-4 {
+    padding-left: 50px;
+  }
+  .comment-content {
+    p {
+      text-align: left;
+    }
+  }
+  #respond {
+    h3 {
+      margin-top: 20px;
+      font-size: 1.3em;
+      small {
+        display: block;
+        font-size: 0.8em;
+      }
+    }
+  }
+  .reply {
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}

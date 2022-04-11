@@ -1,0 +1,47 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-startertheme-sectioncards {
+  border: solid 1px orange;
+  padding: 10px;
+}
+
+.sectioncards-section-title-editor {
+  text-align: center;
+}
+
+.sectioncards-cards-container-editor {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sectioncards-card-editor {
+  width: 200px;
+  min-height: 250px;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.438);
+  border-radius: 5px;
+  padding: 5px;
+}
+.sectioncards-icon-container-editor {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: orange;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectioncards-icon-editor {
+  height: 20px;
+  width: 20px;
+}
+
+.sectioncards-default-btn-editor {
+  display: flex;
+  justify-content: center;
+}

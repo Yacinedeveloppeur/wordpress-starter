@@ -1,0 +1,38 @@
+.default-card {
+  background-color: $colorWhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  border-radius: 19px;
+  transition: all ease 0.2s;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  /* Card animation */
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    /* Icon animation */
+    .card-icon-container {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px lighten($colorPrimary, 22%);
+    }
+  }
+  .card-icon-container {
+    background-color: $colorPrimary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    transition: all ease 0.2s;
+    box-shadow: 0px 5px 10px 0px $colorPrimary;
+    margin-bottom: 25px;
+    img {
+      width: 16px;
+      height: 19px;
+    }
+  }
+}

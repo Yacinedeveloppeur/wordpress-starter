@@ -1,0 +1,39 @@
+$colorPrimary: #ff9900;
+$colorPrimaryTransparent: #ff99004f(160, 9, 160, 0.26);
+$colorSecondary: #173a56;
+$colorAccent: darken($colorPrimary, 10%);
+$colorWhite: white;
+$colorTransparent: #f4f4f4;
+$colorBlack: #333;
+$colorInvalid: #db464b;
+$colorLink: #007bff;
+
+$colorBgHeader: rgb(52, 122, 228);
+$colorBgContent: rgb(75, 199, 221);
+$colorBgHero: #dd3345;
+$colorBgFooter: #23252f;
+
+$fontFamilyLogo: "proxima_nova";
+$fontFamilyBody: "poppins_regular";
+
+$headerShadowSize: 1em;
+
+$sizeLogoHeader: 30.16px;
+$sizeText: 16px;
+$sizeTextLogo: 2em;
+$sizeTitleHero: 44px;
+$sizeTextHero: 18px;
+$sizeTextSection1: 1.2em;
+$sizeTitle: large;
+$sizeTitleH2: 16px;
+$sizeTitleH1: xx-large;
+$sizeTitleH1Section1: 2.5em;
+$sizeNav: 14px;
+$sizeQuote: small;
+
+$sizeMobileText: 0.8em;
+$sizeMobileTitle: 2em;
+
+$weightTitle: bold;
+$weightTitle-h1: 700;
+$weightText: 500;
