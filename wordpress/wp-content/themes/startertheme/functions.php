@@ -3,9 +3,9 @@
 require_once('walker/CommentWalker.php');
 require_once('blocks/hero.php');
 require_once('blocks/section.php');
-require_once('blocks/sectioncards.php');
 require_once('blocks/sectionmessages.php');
 require_once('blocks/lastposts.php');
+require_once('blocks/categories.php');
 
 
 function startertheme_supports()
@@ -147,8 +147,8 @@ add_filter(
     'block_categories',
     function ($categories) {
         $categories[] = [
-            'slug' => 'theme',
-            'title' => 'Theme',
+            'slug' => 'startertheme',
+            'title' => 'Starter Theme',
             'icon' => null
         ];
         return $categories;

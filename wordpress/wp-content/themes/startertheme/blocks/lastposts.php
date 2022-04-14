@@ -60,6 +60,8 @@ function lastposts_block_init() {
 		'editor_script' => 'lastposts-block-editor',
 		'editor_style'  => 'lastposts-block-editor',
 		'style'         => 'lastposts-block',
+		'category' => 'startertheme',
+		'icon' => 'media-document',
 		'render_callback' => 'lastposts_block_render'
 	] );
 }
@@ -79,7 +81,7 @@ function lastposts_block_render()
 		foreach ($lastposts as $post) {
 			$post_id = $post['ID'];
 			$post_author_id = $post['post_author'];
-			$post_thumbnail = get_the_post_thumbnail_url($post_id, 'full');
+			$post_thumbnail = get_the_post_thumbnail_url($post_id, 'medium');
 			$posts_output .= '<a class="post slide default-card" href="'.get_permalink($post_id).'">
 			<img src="'.$post_thumbnail.'"/></br>
 			<i>Par '. get_the_author_meta('display_name', $post_author_id) . ' | ' . get_the_date( 'd F Y', get_the_ID() ) .'</i>

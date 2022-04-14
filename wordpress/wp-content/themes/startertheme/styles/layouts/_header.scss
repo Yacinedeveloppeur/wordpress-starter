@@ -13,24 +13,11 @@
     margin-left: 10%;
     margin-right: 10%;
   }
-  @media screen and (max-width: 768px) {
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-bottom: 0px;
-  }
 }
 
 /* navbar */
 
 .navbar {
-  @media screen and (max-width: 1080px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  @media screen and (max-width: 768px) {
-    display: block;
-  }
   margin: 0;
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -42,15 +29,15 @@
     background-color: $colorWhite;
     li {
       a {
-        @media screen and (max-width: 768px) {
-          text-align: center;
-        }
         display: block;
         padding: 20px 20px;
         text-decoration: none;
 
         &:hover {
           background-color: $colorTransparent;
+        }
+        @media screen and (max-width: 970px) {
+          font-size: $sizeMobileText;
         }
       }
     }
@@ -70,9 +57,6 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    @media screen and (max-width: 768px) {
-      margin-right: 60px;
-    }
     a {
       display: flex;
       align-items: center;
@@ -171,8 +155,8 @@
   .menu-btn {
     display: none;
     &:checked ~ .menu {
-      max-height: 240px;
-      transition: max-height 0.6s ease-out;
+      max-height: 800px;
+      transition: max-height 1.6s ease-out;
     }
     &:checked ~ .menu-icon .navicon {
       background: transparent;
@@ -190,11 +174,20 @@
   }
 }
 
+// SCREEN - 768 PX
+
 @media (min-width: 768px) {
+  .header {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 0px;
+  }
   .navbar {
+    display: block;
     li {
       float: left;
       a {
+        text-align: center;
         padding: 20px 30px;
       }
     }
@@ -206,5 +199,16 @@
     .menu-icon {
       display: none;
     }
+  }
+  .logo {
+    margin-right: 60px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

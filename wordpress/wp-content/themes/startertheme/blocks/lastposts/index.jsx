@@ -6,7 +6,7 @@ let authorName = "";
 
 registerBlockType("startertheme/lastposts", {
   title: "Derniers articles",
-  category: "widgets",
+  category: "startertheme",
   supports: {
     html: false,
   },

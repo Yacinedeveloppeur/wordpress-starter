@@ -26,7 +26,7 @@ let slider = tns({
       nav: false,
     },
     1280: {
-      items: 3,
+      items: 2,
       controls: false,
       nav: true,
     },

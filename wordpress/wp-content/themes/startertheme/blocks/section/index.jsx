@@ -4,7 +4,7 @@ const { ColorPicker } = wp.components;
 
 registerBlockType("startertheme/section", {
   title: "Section",
-  category: "widgets",
+  category: "startertheme",
   supports: {
     html: false,
   },

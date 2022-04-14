@@ -51,8 +51,9 @@ function sectionmessages_block_init() {
 		'editor_script' => 'sectionmessages-block-editor',
 		'editor_style'  => 'sectionmessages-block-editor',
 		'style'         => 'sectionmessages-block',
+		'category' => 'startertheme',
+		'icon' => 'admin-comments',
 		'attributes' => [
-			
 			'title' => ['type' => 'string'],
 			'text' => ['type' => 'string'],		
 			'messageOne' => ['type' => 'string'],

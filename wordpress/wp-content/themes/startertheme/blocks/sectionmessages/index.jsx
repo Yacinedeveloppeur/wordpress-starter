@@ -40,7 +40,7 @@ function UploadImg({ numberMsg, onSelect }) {
 
 registerBlockType("startertheme/sectionmessages", {
   title: "Section avec messages",
-  category: "widgets",
+  category: "startertheme",
   supports: {
     html: false,
   },

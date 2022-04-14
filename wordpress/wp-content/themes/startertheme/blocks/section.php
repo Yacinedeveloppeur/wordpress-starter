@@ -53,6 +53,8 @@ function section_block_init() {
 		'editor_script' => 'section-block-editor',
 		'editor_style'  => 'section-block-editor',
 		'style'         => 'section-block',
+		'category' => 'startertheme',
+		'icon' => 'media-document',
 		'attributes' => [
 			'intro' => ['type' => 'string'],
 			'content' => ['type' => 'string'],
@@ -74,7 +76,7 @@ function section_block_render(array $attributes)
             <div>
 				<span>
 				<p>{$attributes['intro']}</p>
-              <h1>{$attributes['title']}</h1>
+              <h2>{$attributes['title']}</h2>
 				</span>
               <p>{$attributes['content']}</p>
             </div>

@@ -1,6 +1,9 @@
-<div class="category">
-    <h2 style="text-align: center;"><?php the_title() ?></h2>   
-    <p ><?php the_content() ?></p>
+<a href="<?php the_permalink() ?>" class="default-card">
+<div >
+    <div>
+    <h5><?php the_title() ?></h5>    
+    </div>
+    <p ><?php the_excerpt() ?></p>      
 </div>
-
+</a>
 

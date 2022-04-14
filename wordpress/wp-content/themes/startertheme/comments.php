@@ -1,7 +1,5 @@
 <?php
-
 use startertheme\CommentWalker;
-
 $count = absint(get_comments_number());
 ?>
 <div class="comment-container" style="clear: both;">

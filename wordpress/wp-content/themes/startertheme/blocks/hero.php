@@ -53,6 +53,8 @@ function hero_block_init() {
 		'editor_script' => 'hero-block-editor',
 		'editor_style'  => 'hero-block-editor',
 		'style'         => 'hero-block',
+		'category' => 'startertheme',
+		'icon' => 'media-document',
 		'attributes' => [
 			'content' => ['type' => 'string'],
 			'title' => ['type' => 'string'],

@@ -3,9 +3,6 @@
 
 <?php $works = get_terms(['taxonomy' => 'work']); ?>
 <ul class="nav nav-pills">
-<li class="nav-item">
-            <a class="nav-link text-dark" href=<?= home_url() ?>>Tout</a>
-        </li>
 <?php 
 $categories = get_categories( array(
     'orderby' => 'name',

@@ -17,8 +17,10 @@
   }
   .form-submit {
     text-align: center;
+
     .submit {
       @include default-btn;
+      font-size: $sizeText;
     }
   }
   article {

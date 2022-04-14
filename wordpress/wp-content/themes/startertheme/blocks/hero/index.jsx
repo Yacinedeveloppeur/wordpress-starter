@@ -4,7 +4,7 @@ const { ColorPicker } = wp.components;
 
 registerBlockType("startertheme/hero", {
   title: "Hero",
-  category: "widgets",
+  category: "startertheme",
   supports: {
     html: false,
   },
