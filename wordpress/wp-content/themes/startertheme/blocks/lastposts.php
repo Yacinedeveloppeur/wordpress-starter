@@ -83,8 +83,8 @@ function lastposts_block_render()
 			$post_author_id = $post['post_author'];
 			$post_thumbnail = get_the_post_thumbnail_url($post_id, 'medium');
 			$posts_output .= '<a class="post slide default-card" href="'.get_permalink($post_id).'">
-			<img src="'.$post_thumbnail.'"/></br>
-			<i>Par '. get_the_author_meta('display_name', $post_author_id) . ' | ' . get_the_date( 'd F Y', get_the_ID() ) .'</i>
+			<img src="'.$post_thumbnail.'"/>
+			<p><i>Par '. get_the_author_meta('display_name', $post_author_id) . ' | ' . get_the_date( 'd F Y', get_the_ID() ) .'</i></p>
 			<h3>'.get_the_title($post_id).'</h3></a>
 			';
 		}

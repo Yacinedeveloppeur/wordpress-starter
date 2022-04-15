@@ -24,6 +24,9 @@
     @media screen and (max-width: 768px) {
       margin-right: 60px;
     }
+    @media screen and (max-width: 970px) {
+      font-size: 1.4em;
+    }
 
     a {
       display: flex;
@@ -46,7 +49,7 @@
     overflow: hidden;
     background-color: $colorWhite;
     display: flex;
-
+    align-items: center;
     @media screen and (max-width: 768px) {
       flex-direction: column;
     }
@@ -54,6 +57,9 @@
       a {
         @media screen and (max-width: 768px) {
           text-align: center;
+        }
+        @media screen and (max-width: 970px) {
+          font-size: $sizeMobileText;
         }
         display: block;
         padding: 20px 20px;

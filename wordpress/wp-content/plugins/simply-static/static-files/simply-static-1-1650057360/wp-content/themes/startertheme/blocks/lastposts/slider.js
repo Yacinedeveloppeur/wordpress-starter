@@ -2,8 +2,8 @@
 
 let slider = tns({
   container: ".slider",
-  controls: false,
-  nav: true,
+  nav: false,
+  controls: true,
   items: 3,
   slideBy: "page",
   controlsPosition: "bottom",
@@ -22,18 +22,18 @@ let slider = tns({
     },
     768: {
       items: 1,
-      controls: true,
       nav: false,
+      controls: true,
     },
     1280: {
       items: 2,
-      controls: false,
-      nav: true,
+      nav: false,
+      controls: true,
     },
     1400: {
       items: 3,
-      nav: true,
-      controls: false,
+      nav: false,
+      controls: true,
     },
   },
 });

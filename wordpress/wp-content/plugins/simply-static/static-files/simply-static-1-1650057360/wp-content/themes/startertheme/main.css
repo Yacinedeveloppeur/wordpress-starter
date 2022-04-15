@@ -177,6 +177,11 @@ body a:hover {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 970px) {
+  .navbar .logo {
+    font-size: 1.4em;
+  }
+}
 .navbar .logo a {
   display: flex;
   align-items: center;
@@ -323,7 +328,7 @@ body a:hover {
   top: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .header {
     padding-left: 5%;
     padding-right: 5%;
@@ -353,7 +358,7 @@ body a:hover {
     margin-right: 60px;
   }
 }
-@media (max-width: 1080px) {
+@media (max-width: 1400px) {
   .navbar {
     display: flex;
     flex-direction: column;
@@ -572,21 +577,32 @@ body a:hover {
 .lastposts-block .post:hover {
   text-decoration: none;
 }
-.lastposts-block .tns-nav {
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.lastposts-block .tns-nav button {
-  height: 13px;
-  width: 8px;
-  background-color: #a5a5a5;
-  border: none;
-  margin-left: 7px;
-  border-radius: 50%;
-}
-.lastposts-block .tns-nav .tns-nav-active {
+.lastposts-block button {
   background-color: #ff9900;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 5%;
+  transition: background-color 0.4s ease-out, color 0.4s ease-out;
+  margin: 10px;
+}
+.lastposts-block button:hover {
+  background-color: #cc7a00;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.lastposts-block button:focus {
+  outline: none;
+}
+.lastposts-block button a {
+  color: white;
+}
+.lastposts-block button a:hover {
+  text-decoration: none;
+}
+.lastposts-block button a:visited {
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -975,7 +991,7 @@ body a:hover {
 }
 
 .content {
-  padding-top: 70px;
+  padding-top: 120px;
 }
 
 .footer {
@@ -1011,6 +1027,11 @@ body a:hover {
     margin-right: 60px;
   }
 }
+@media screen and (max-width: 970px) {
+  .footer .footer-logo-container {
+    font-size: 1.4em;
+  }
+}
 .footer .footer-logo-container a {
   display: flex;
   align-items: center;
@@ -1031,6 +1052,7 @@ body a:hover {
   overflow: hidden;
   background-color: white;
   display: flex;
+  align-items: center;
 }
 @media screen and (max-width: 768px) {
   .footer ul {
@@ -1045,6 +1067,11 @@ body a:hover {
 @media screen and (max-width: 768px) {
   .footer ul li a {
     text-align: center;
+  }
+}
+@media screen and (max-width: 970px) {
+  .footer ul li a {
+    font-size: 0.8em;
   }
 }
 .footer ul li a:hover {
@@ -1156,15 +1183,7 @@ body a:hover {
     font-size: 0.8em;
   }
 }
-@media screen and (max-width: 1400px) {
-  .category {
-    margin-top: 110px;
-  }
-}
 @media screen and (max-width: 768px) {
-  .category {
-    margin-top: 40px;
-  }
   .category .menu {
     flex-direction: column;
   }
