@@ -1,0 +1,82 @@
+.categories_part {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+
+  @media screen and (max-width: 1600px) {
+    font-size: $sizeMobileText;
+  }
+  article {
+    width: 80%;
+    position: relative;
+    .default-card {
+      > div {
+        width: 100%;
+      }
+    }
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+      @media screen and (max-width: 1600px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .card-icon {
+        width: 25px;
+        height: 25px;
+        background-image: url("./images/icon-card.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  /* Switch card icon-color*/
+  .number-1 {
+    .card-icon-container {
+      background-color: #7752be;
+      box-shadow: 0px 5px 10px 0px #7752be;
+      &:hover {
+        box-shadow: 0px 10px 20px 2px lighten(#7752be, 22%);
+      }
+    }
+  }
+  .number-3 {
+    .card-icon-container {
+      background-color: #f03e3d;
+      box-shadow: 0px 5px 10px 0px #f03e3d;
+      &:hover {
+        box-shadow: 0px 10px 20px 2px lighten(#f03e3d, 22%);
+      }
+    }
+  }
+  .number-4 {
+    .card-icon-container {
+      background-color: #4dadf7;
+      box-shadow: 0px 5px 10px 0px #4dadf7;
+      &:hover {
+        box-shadow: 0px 10px 20px 2px lighten(#4dadf7, 22%);
+      }
+    }
+  }
+}
+
+.curve-separator-categories {
+  background-image: url("./images/curve-bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 75px;
+
+  @media screen and (max-width: 960px) {
+    background-image: none;
+    min-height: 0px;
+  }
+}

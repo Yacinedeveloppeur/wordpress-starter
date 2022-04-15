@@ -1,0 +1,50 @@
+.category {
+  .menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    li {
+      width: 100%;
+      a {
+        &:hover {
+          text-decoration: none;
+        }
+        @include default-btn(
+          $colorBg: $colorWhite,
+          $colorText: $colorSecondary
+        );
+        border: solid lighten($colorSecondary, 40%) 1px;
+        &:hover {
+          background-color: $colorSecondary;
+          color: $colorWhite;
+        }
+      }
+      .link-active {
+        @include default-btn();
+      }
+    }
+  }
+  .post {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  @media screen and (max-width: 1280px) {
+    font-size: $sizeMobileText;
+  }
+  @media screen and (max-width: 1400px) {
+    margin-top: 110px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 40px;
+    .menu {
+      flex-direction: column;
+      .item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}

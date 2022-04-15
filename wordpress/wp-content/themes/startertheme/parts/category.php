@@ -1,4 +1,4 @@
-<a href="<?php the_permalink() ?>" class="default-card">
+<a href="<?php the_permalink() ?>" class="default-card category-part">
 <div >
     <div>
     <h5><?php the_title() ?></h5>    
