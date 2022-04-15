@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Catégorie 4 | starter_website</title>
+	<atom:link href="/category/categorie-4/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Starter thème WordPress</description>
+	<lastBuildDate>Sun, 10 Apr 2022 19:47:21 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2022/04/cropped-Fichier-1@4x-32x32.png</url>
+	<title>Catégorie 4 | starter_website</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Exemple d&#8217;article</title>
+		<link>/2022/04/01/exemple-darticle/</link>
+					<comments>/2022/04/01/exemple-darticle/#respond</comments>
+		
+		<dc:creator><![CDATA[Yacine]]></dc:creator>
+		<pubDate>Fri, 01 Apr 2022 11:36:09 +0000</pubDate>
+				<category><![CDATA[Catégorie 4]]></category>
+		<guid isPermaLink="false">/?p=62</guid>
+
+					<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac magna nisl. Sed venenatis finibus leo vitae ultrices. Ut eget congue dolor, non tincidunt lectus. Phasellus facilisis dapibus nibh vitae suscipit. Aliquam a turpis sit amet magna sollicitudin ornare. Pellentesque sed maximus ex, nec tristique justo. Nam risus enim, porttitor sed ex a, dignissim congue [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac magna nisl. Sed venenatis finibus leo vitae ultrices. Ut eget congue dolor, non tincidunt lectus. Phasellus facilisis dapibus nibh vitae suscipit. Aliquam a turpis sit amet magna sollicitudin ornare. Pellentesque sed maximus ex, nec tristique justo. Nam risus enim, porttitor sed ex a, dignissim congue mauris. Phasellus eros elit, posuere et libero at, lacinia bibendum elit. Vestibulum eu felis ultrices, laoreet nunc a, luctus nibh. Sed enim purus, bibendum imperdiet varius eu, efficitur a justo. Vivamus sodales justo iaculis gravida vulputate. Nam a cursus tortor. Etiam nec tellus et massa placerat vestibulum ut vitae libero. Morbi ultricies, massa quis iaculis suscipit, mauris magna iaculis metus, at imperdiet justo dui quis erat. Pellentesque eget massa venenatis, molestie augue vitae, vulputate metus.</p>
+
+
+
+<p>Nam vitae porttitor arcu. Quisque eget sollicitudin magna. Sed facilisis rutrum mauris. Ut turpis nunc, pharetra sit amet tincidunt et, sagittis a nisl. Nam sit amet turpis lobortis, ullamcorper mi eu, finibus est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada, ipsum id placerat fringilla, nisl dolor finibus nunc, imperdiet euismod lorem leo ut lorem. Vivamus et erat in justo ultricies rhoncus. Fusce mollis vel erat nec pulvinar. Mauris quis tempor mi. Fusce sodales nisl sed metus consequat, et bibendum diam dignissim. Nulla facilisi. Etiam vestibulum vulputate neque, a maximus enim commodo a. Proin et laoreet mauris. Proin congue tortor sed nunc luctus cursus.</p>
+
+
+
+<p>Morbi bibendum porttitor sem et eleifend. Donec commodo neque eu dictum malesuada. Praesent accumsan tellus in finibus pellentesque. Cras ac eleifend orci. In condimentum libero non ullamcorper convallis. Duis metus tellus, dignissim eget risus sit amet, scelerisque placerat est. Vivamus risus ex, scelerisque vitae enim id, venenatis varius mi.</p>
+
+
+
+<p>Maecenas sed ultricies est. Donec sem dolor, facilisis nec velit ut, laoreet mattis arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac purus augue. Nulla facilisi. Vivamus volutpat pellentesque rutrum. Fusce tellus velit, posuere a facilisis eget, rhoncus nec massa. Phasellus ac vulputate tortor.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/04/01/exemple-darticle/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

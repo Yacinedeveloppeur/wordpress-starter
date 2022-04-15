@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Catégorie 3 | starter_website</title>
+	<atom:link href="/category/categorie-3/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Starter thème WordPress</description>
+	<lastBuildDate>Fri, 15 Apr 2022 06:31:50 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2022/04/cropped-Fichier-1@4x-32x32.png</url>
+	<title>Catégorie 3 | starter_website</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Exemple d&#8217;article 8</title>
+		<link>/2022/04/11/exemple-darticle-8/</link>
+					<comments>/2022/04/11/exemple-darticle-8/#respond</comments>
+		
+		<dc:creator><![CDATA[Yacine]]></dc:creator>
+		<pubDate>Mon, 11 Apr 2022 11:10:40 +0000</pubDate>
+				<category><![CDATA[Catégorie 3]]></category>
+		<guid isPermaLink="false">/?p=189</guid>
+
+					<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu scelerisque quam. Fusce a posuere tellus. Proin diam lectus, interdum eu posuere ac, venenatis vel velit. Fusce ligula nulla, auctor eu tristique ut, posuere non eros. Aliquam mauris eros, ullamcorper id purus a, tempor posuere elit. Curabitur pulvinar congue dui a posuere. Maecenas lobortis pretium [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu scelerisque quam. Fusce a posuere tellus. Proin diam lectus, interdum eu posuere ac, venenatis vel velit. Fusce ligula nulla, auctor eu tristique ut, posuere non eros. Aliquam mauris eros, ullamcorper id purus a, tempor posuere elit. Curabitur pulvinar congue dui a posuere. Maecenas lobortis pretium lacinia. Maecenas sollicitudin ipsum est, vel dictum mi auctor vitae. Integer non urna porttitor, porta sem a, feugiat diam. Integer at fermentum est, ornare lobortis elit. Quisque at massa auctor, viverra urna eu, consequat massa. Pellentesque tincidunt lacus vitae massa congue, non fermentum quam congue. Vivamus eget euismod ligula, at dapibus lacus.</p>
+
+
+
+<p>Suspendisse ut dui mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean purus mauris, condimentum nec felis a, ornare aliquam metus. Duis cursus elit eget lectus convallis, a bibendum eros egestas. Nunc at massa quis dui aliquam lacinia ut quis sem. Nulla sit amet libero vel orci convallis laoreet vel lobortis nibh. Quisque ut ipsum aliquam augue eleifend ultricies. Maecenas ac tincidunt diam, a eleifend eros. Sed sodales elit vitae lacus mollis, eget eleifend dolor accumsan. Quisque eleifend consequat pellentesque. Nulla id risus eget enim sollicitudin ornare. Sed gravida eros et tellus posuere, non congue nunc tristique.</p>
+
+
+
+<p>Fusce dignissim quis neque quis mattis. Mauris viverra urna libero, at suscipit libero sagittis sit amet. Mauris ullamcorper pellentesque lorem nec vestibulum. Nam quis blandit dui. Phasellus eleifend, libero sit amet pretium facilisis, nisi sem tincidunt magna, ut convallis mauris diam id eros. Integer elementum cursus convallis. Vestibulum aliquet rhoncus felis nec molestie. Sed a lacinia lectus, et malesuada nunc. Curabitur sodales lacus nec leo cursus tristique. Morbi placerat turpis ex, sit amet sagittis quam commodo ut. Proin vitae vestibulum erat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/04/11/exemple-darticle-8/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Exemple d&#8217;article 7</title>
+		<link>/2022/04/11/exemple-darticle-7/</link>
+					<comments>/2022/04/11/exemple-darticle-7/#respond</comments>
+		
+		<dc:creator><![CDATA[Yacine]]></dc:creator>
+		<pubDate>Mon, 11 Apr 2022 11:10:16 +0000</pubDate>
+				<category><![CDATA[Catégorie 3]]></category>
+		<guid isPermaLink="false">/?p=187</guid>
+
+					<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu scelerisque quam. Fusce a posuere tellus. Proin diam lectus, interdum eu posuere ac, venenatis vel velit. Fusce ligula nulla, auctor eu tristique ut, posuere non eros. Aliquam mauris eros, ullamcorper id purus a, tempor posuere elit. Curabitur pulvinar congue dui a posuere. Maecenas lobortis pretium [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu scelerisque quam. Fusce a posuere tellus. Proin diam lectus, interdum eu posuere ac, venenatis vel velit. Fusce ligula nulla, auctor eu tristique ut, posuere non eros. Aliquam mauris eros, ullamcorper id purus a, tempor posuere elit. Curabitur pulvinar congue dui a posuere. Maecenas lobortis pretium lacinia. Maecenas sollicitudin ipsum est, vel dictum mi auctor vitae. Integer non urna porttitor, porta sem a, feugiat diam. Integer at fermentum est, ornare lobortis elit. Quisque at massa auctor, viverra urna eu, consequat massa. Pellentesque tincidunt lacus vitae massa congue, non fermentum quam congue. Vivamus eget euismod ligula, at dapibus lacus.</p>
+
+
+
+<p>Suspendisse ut dui mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean purus mauris, condimentum nec felis a, ornare aliquam metus. Duis cursus elit eget lectus convallis, a bibendum eros egestas. Nunc at massa quis dui aliquam lacinia ut quis sem. Nulla sit amet libero vel orci convallis laoreet vel lobortis nibh. Quisque ut ipsum aliquam augue eleifend ultricies. Maecenas ac tincidunt diam, a eleifend eros. Sed sodales elit vitae lacus mollis, eget eleifend dolor accumsan. Quisque eleifend consequat pellentesque. Nulla id risus eget enim sollicitudin ornare. Sed gravida eros et tellus posuere, non congue nunc tristique.</p>
+
+
+
+<p>Fusce dignissim quis neque quis mattis. Mauris viverra urna libero, at suscipit libero sagittis sit amet. Mauris ullamcorper pellentesque lorem nec vestibulum. Nam quis blandit dui. Phasellus eleifend, libero sit amet pretium facilisis, nisi sem tincidunt magna, ut convallis mauris diam id eros. Integer elementum cursus convallis. Vestibulum aliquet rhoncus felis nec molestie. Sed a lacinia lectus, et malesuada nunc. Curabitur sodales lacus nec leo cursus tristique. Morbi placerat turpis ex, sit amet sagittis quam commodo ut. Proin vitae vestibulum erat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/04/11/exemple-darticle-7/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Exemple d&#8217;article 6</title>
+		<link>/2022/04/11/exemple-darticle-6/</link>
+					<comments>/2022/04/11/exemple-darticle-6/#respond</comments>
+		
+		<dc:creator><![CDATA[Yacine]]></dc:creator>
+		<pubDate>Mon, 11 Apr 2022 11:09:53 +0000</pubDate>
+				<category><![CDATA[Catégorie 3]]></category>
+		<guid isPermaLink="false">/?p=185</guid>
+
+					<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu scelerisque quam. Fusce a posuere tellus. Proin diam lectus, interdum eu posuere ac, venenatis vel velit. Fusce ligula nulla, auctor eu tristique ut, posuere non eros. Aliquam mauris eros, ullamcorper id purus a, tempor posuere elit. Curabitur pulvinar congue dui a posuere. Maecenas lobortis pretium [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu scelerisque quam. Fusce a posuere tellus. Proin diam lectus, interdum eu posuere ac, venenatis vel velit. Fusce ligula nulla, auctor eu tristique ut, posuere non eros. Aliquam mauris eros, ullamcorper id purus a, tempor posuere elit. Curabitur pulvinar congue dui a posuere. Maecenas lobortis pretium lacinia. Maecenas sollicitudin ipsum est, vel dictum mi auctor vitae. Integer non urna porttitor, porta sem a, feugiat diam. Integer at fermentum est, ornare lobortis elit. Quisque at massa auctor, viverra urna eu, consequat massa. Pellentesque tincidunt lacus vitae massa congue, non fermentum quam congue. Vivamus eget euismod ligula, at dapibus lacus.</p>
+
+
+
+<p>Suspendisse ut dui mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean purus mauris, condimentum nec felis a, ornare aliquam metus. Duis cursus elit eget lectus convallis, a bibendum eros egestas. Nunc at massa quis dui aliquam lacinia ut quis sem. Nulla sit amet libero vel orci convallis laoreet vel lobortis nibh. Quisque ut ipsum aliquam augue eleifend ultricies. Maecenas ac tincidunt diam, a eleifend eros. Sed sodales elit vitae lacus mollis, eget eleifend dolor accumsan. Quisque eleifend consequat pellentesque. Nulla id risus eget enim sollicitudin ornare. Sed gravida eros et tellus posuere, non congue nunc tristique.</p>
+
+
+
+<p>Fusce dignissim quis neque quis mattis. Mauris viverra urna libero, at suscipit libero sagittis sit amet. Mauris ullamcorper pellentesque lorem nec vestibulum. Nam quis blandit dui. Phasellus eleifend, libero sit amet pretium facilisis, nisi sem tincidunt magna, ut convallis mauris diam id eros. Integer elementum cursus convallis. Vestibulum aliquet rhoncus felis nec molestie. Sed a lacinia lectus, et malesuada nunc. Curabitur sodales lacus nec leo cursus tristique. Morbi placerat turpis ex, sit amet sagittis quam commodo ut. Proin vitae vestibulum erat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/04/11/exemple-darticle-6/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Exemple d&#8217;article 2</title>
+		<link>/2022/04/01/exemple-darticle-2/</link>
+					<comments>/2022/04/01/exemple-darticle-2/#respond</comments>
+		
+		<dc:creator><![CDATA[Yacine]]></dc:creator>
+		<pubDate>Fri, 01 Apr 2022 11:43:05 +0000</pubDate>
+				<category><![CDATA[Catégorie 3]]></category>
+		<guid isPermaLink="false">/?p=64</guid>
+
+					<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac magna nisl. Sed venenatis finibus leo vitae ultrices. Ut eget congue dolor, non tincidunt lectus. Phasellus facilisis dapibus nibh vitae suscipit. Aliquam a turpis sit amet magna sollicitudin ornare. Pellentesque sed maximus ex, nec tristique justo. Nam risus enim, porttitor sed ex a, dignissim congue [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac magna nisl. Sed venenatis finibus leo vitae ultrices. Ut eget congue dolor, non tincidunt lectus. Phasellus facilisis dapibus nibh vitae suscipit. Aliquam a turpis sit amet magna sollicitudin ornare. Pellentesque sed maximus ex, nec tristique justo. Nam risus enim, porttitor sed ex a, dignissim congue mauris. Phasellus eros elit, posuere et libero at, lacinia bibendum elit. Vestibulum eu felis ultrices, laoreet nunc a, luctus nibh. Sed enim purus, bibendum imperdiet varius eu, efficitur a justo. Vivamus sodales justo iaculis gravida vulputate. Nam a cursus tortor. Etiam nec tellus et massa placerat vestibulum ut vitae libero. Morbi ultricies, massa quis iaculis suscipit, mauris magna iaculis metus, at imperdiet justo dui quis erat. Pellentesque eget massa venenatis, molestie augue vitae, vulputate metus.</p>
+
+
+
+<p>Nam vitae porttitor arcu. Quisque eget sollicitudin magna. Sed facilisis rutrum mauris. Ut turpis nunc, pharetra sit amet tincidunt et, sagittis a nisl. Nam sit amet turpis lobortis, ullamcorper mi eu, finibus est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada, ipsum id placerat fringilla, nisl dolor finibus nunc, imperdiet euismod lorem leo ut lorem. Vivamus et erat in justo ultricies rhoncus. Fusce mollis vel erat nec pulvinar. Mauris quis tempor mi. Fusce sodales nisl sed metus consequat, et bibendum diam dignissim. Nulla facilisi. Etiam vestibulum vulputate neque, a maximus enim commodo a. Proin et laoreet mauris. Proin congue tortor sed nunc luctus cursus.</p>
+
+
+
+<p>Morbi bibendum porttitor sem et eleifend. Donec commodo neque eu dictum malesuada. Praesent accumsan tellus in finibus pellentesque. Cras ac eleifend orci. In condimentum libero non ullamcorper convallis. Duis metus tellus, dignissim eget risus sit amet, scelerisque placerat est. Vivamus risus ex, scelerisque vitae enim id, venenatis varius mi.</p>
+
+
+
+<p>Maecenas sed ultricies est. Donec sem dolor, facilisis nec velit ut, laoreet mattis arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac purus augue. Nulla facilisi. Vivamus volutpat pellentesque rutrum. Fusce tellus velit, posuere a facilisis eget, rhoncus nec massa. Phasellus ac vulputate tortor.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/04/01/exemple-darticle-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
